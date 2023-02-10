@@ -50,12 +50,16 @@ a:hover {
 }
 .tag {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-style: italic;
-    color: rgb(177, 0, 253);
-    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
     bottom: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    padding-bottom: 5px;
+    color:rgba(255, 255, 255, .875);
 }
 
 @media (max-width: 600px){
@@ -83,9 +87,16 @@ a:hover {
 }
 
 .tag{
-    display:flex;
-    font-style: italic;
-    color:rgb(177, 0, 253);
-    justify-content: center;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+  padding-bottom: 5px;
+  color:rgba(255, 255, 255, .875);
   }
 }
